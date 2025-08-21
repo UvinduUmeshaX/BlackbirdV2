@@ -106,13 +106,13 @@ export default function MusicSection() {
   return (
     <section
       ref={sectionRef}
-      className="relative bg-black h-screen px-6 flex flex-col items-center overflow-hidden"
+      className="relative bg-black h-screen px-6 flex flex-col items-center overflow-hidden mt-0"
     >
       {/* Foreground Text at the top */}
-      <div className="relative z-20 w-full text-center mt-12 md:mt-16">
+      <div className="relative z-20 w-full text-center mt-0 md:mt-12 lg:mt-12">
         <h2
           ref={headingRef}
-          className="text-white text-4xl md:text-6xl font-serif mb-4 font-['BL-Melody'] mt-16"
+          className="text-white text-4xl md:text-6xl font-serif mb-3 font-['BL-Melody'] mt-4 md:mt-16 lg:mt-16"
         >
           “Where the music never stops and
           <br />

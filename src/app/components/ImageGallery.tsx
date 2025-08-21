@@ -99,8 +99,8 @@ export default function ImageGallery() {
         /* small responsive tweak */
         @media (max-width: 640px) {
           .marquee__group img {
-            width: 220px !important;
-            height: 220px !important;
+            width: 250px !important;
+            height: 300px !important;
           }
         }
       `}</style>

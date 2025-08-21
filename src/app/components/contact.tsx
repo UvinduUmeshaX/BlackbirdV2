@@ -11,11 +11,11 @@ export default function Contact(){
 
                 {/* Text + Quote + Icons */}
                 <div className="flex-1 text-center md:text-left">
-                    <h3 className="text-5xl font-bold mb-4 text-white font-['BL-Melody']">
+                    <h3 className="text-5xl md:text-5xl lg:text-5xl font-bold mb-4 text-white font-['BL-Melody']">
                         Contact Us
                     </h3>
 
-                    <blockquote className="text-3xl md:text-2xl italic text-white font-serif mb-8">
+                    <blockquote className="text-1xl md:text-2xl italic text-white font-serif mb-8">
                         "The trees can hear you if you talk with them."
                     </blockquote>
 

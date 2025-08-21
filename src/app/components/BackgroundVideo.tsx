@@ -61,13 +61,16 @@ export default function BackgroundVideo() {
           }
 
           .overlay {
+            display: none;
             height: 40vh;
           }
         }
 
         /* Desktop: Bigger text for taller video */
-        @media (min-width: 768px) {
+        @media (min-width: 768px)
+        {
           .video-text {
+            
             width: auto;
             height: 23rem; /* Restore large height */
             max-width: 90%;

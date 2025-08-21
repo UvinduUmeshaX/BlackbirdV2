@@ -11,6 +11,7 @@ import Contact from './components/contact';
 import Reservation from './components/Researvation';
 import Footer from './components/footer';
 import MenuSection from './components/MenuSection';
+import MobText from './components/MobText';
 
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -26,7 +27,7 @@ export default function Home() {
       <EventSection/>
       <MenuSection />
       <BackgroundVideo />
-      
+      <MobText />
       <Contact/>
       {/* Image Gallery Section */}
       <div className="gallery-wrapper" style={{ padding: '20px', backgroundColor: 'black' }}>
