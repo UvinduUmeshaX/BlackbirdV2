@@ -112,11 +112,9 @@ export default function MusicSection() {
       <div className="relative z-20 w-full text-center mt-0 md:mt-12 lg:mt-12">
         <h2
           ref={headingRef}
-          className="text-white text-4xl md:text-6xl font-serif mb-3 font-['BL-Melody'] mt-4 md:mt-16 lg:mt-16"
+          className="text-white text-[2rem] md:text-6xl font-serif mb-3 font-['BL-Melody'] mt-4 md:mt-16 lg:mt-16"
         >
-          “Where the music never stops and
-          <br />
-          the glasses never empty.”
+          “Where the music never stops and<br/>the glasses never empty.”
         </h2>
         <p
           ref={paragraphRef}

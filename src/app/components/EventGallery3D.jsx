@@ -1,15 +1,15 @@
-'use client'
+"use client";
 
-import { useEffect, useRef } from 'react'
-import Atropos from 'atropos'
-import 'atropos/css'
+import { useEffect, useRef } from "react";
+import Atropos from "atropos";
+import "atropos/css";
 
 const EventGallery3D = () => {
-  const mainImageRef = useRef(null)
-  const gridImageRefs = useRef([])
+  const mainImageRef = useRef(null);
+  const gridImageRefs = useRef([]);
 
   useEffect(() => {
-  const atroposInstances = []
+    const atroposInstances = [];
 
     if (mainImageRef.current) {
       const mainAtropos = Atropos({
@@ -20,9 +20,9 @@ const EventGallery3D = () => {
         duration: 300,
         rotate: true,
         rotateXMax: 12,
-        rotateYMax: 12
-      })
-      atroposInstances.push(mainAtropos)
+        rotateYMax: 12,
+      });
+      atroposInstances.push(mainAtropos);
     }
 
     gridImageRefs.current.forEach((ref, index) => {
@@ -37,21 +37,21 @@ const EventGallery3D = () => {
           rotateXMax: 15,
           rotateYMax: 15,
           onEnter() {
-            console.log(`Grid image ${index + 1} entered`)
-          }
-        })
-        atroposInstances.push(gridAtropos)
+            console.log(`Grid image ${index + 1} entered`);
+          },
+        });
+        atroposInstances.push(gridAtropos);
       }
-    })
+    });
 
     return () => {
-      atroposInstances.forEach(instance => {
-        if (instance) instance.destroy()
-      })
-    }
-  }, [])
+      atroposInstances.forEach((instance) => {
+        if (instance) instance.destroy();
+      });
+    };
+  }, []);
 
-  const eventImages = ['1event.png', '2event.png', '3event.png', '4event.png']
+  const eventImages = ["1event.png", "2event.png", "3event.png", "4event.png"];
 
   return (
     <section id="whats-on" className="px-4 py-8">
@@ -92,7 +92,8 @@ const EventGallery3D = () => {
             <div
               key={idx}
               ref={el => (gridImageRefs.current[idx] = el)}
-              className="atropos w-full aspect-[1/1.25]"
+              className="atropos w-full aspect-[1/1.25] scale-90 sm:scale-100"
+               
             >
               <div className="atropos-scale">
                 <div className="atropos-rotate">
@@ -122,7 +123,7 @@ const EventGallery3D = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default EventGallery3D
+export default EventGallery3D;

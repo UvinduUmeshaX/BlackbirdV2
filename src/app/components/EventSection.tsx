@@ -7,8 +7,10 @@ export default function EventSection() {
 <section style={{ padding: '4rem 1.5rem', backgroundColor: '#111827', backgroundImage: `url('/images/eventimg.png')`, backgroundSize: 'cover',
     backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
         <div style={{ maxWidth: '72rem', margin: '0 auto' }}>
-          <h2 style={{
-            fontSize: '2.4rem',
+          <h2 
+          className="hero-h1"
+          style={{
+            fontSize: '3rem',
             fontWeight: 'bold',
             textAlign: 'center',
             marginBottom: '3rem',
@@ -21,8 +23,12 @@ export default function EventSection() {
           {/* Two-column grid layout */}
           <EventGallery3D />
         </div>
-      
-          
+       
+           <style jsx>{`
+             .hero-h1{
+               margin-bottom: 1rem;
+             }
+           `}</style>
       </section>
   );
 }
