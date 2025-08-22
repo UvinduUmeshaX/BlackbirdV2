@@ -8,7 +8,7 @@ export default function EventSection() {
     backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
         <div style={{ maxWidth: '72rem', margin: '0 auto' }}>
           <h2 style={{
-            fontSize: '3rem',
+            fontSize: '2.4rem',
             fontWeight: 'bold',
             textAlign: 'center',
             marginBottom: '3rem',

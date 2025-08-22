@@ -42,7 +42,7 @@ export default function MobText() {
   return (
     <div
       ref={textRef}
-      className="block md:hidden text-white text-[3rem] text-center bg-transparent -mt-20 mb-4  font-['BL-Melody'] "
+      className="block md:hidden text-white text-[2rem] text-center bg-transparent -mt-20 mb-4  font-['BL-Melody'] "
     >
       <h2 className="font-bold leading-tight">Enjoy Live Music</h2>
       <h2 className="font-bold leading-tight">Taste Food & Drink</h2>

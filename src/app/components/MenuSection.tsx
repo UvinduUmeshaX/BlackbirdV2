@@ -57,7 +57,7 @@ export default function MenuSection() {
       className="relative bg-black bg-cover bg-center text-white py-16 px-4"
       style={{ backgroundImage: "url('images/menu-bg.png')" , backgroundSize: "100%",backgroundRepeat: "no-repeat",backgroundPosition: "center", }}
     >
-      <h2 style={{fontSize: '3rem', fontWeight: 'bold', marginBottom: '4rem', color: 'white', fontFamily: 'BL-Melody, serif', textAlign: "center", }}>Food & Drinks</h2>
+      <h2 style={{fontSize: '2.4rem', fontWeight: 'bold', marginBottom: '4rem', color: 'white', fontFamily: 'BL-Melody, serif', textAlign: "center", }}>Food & Drinks</h2>
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 ">
         {/* Video 1 + Button */}
         <div className="video-wrapper flex flex-col items-center">
