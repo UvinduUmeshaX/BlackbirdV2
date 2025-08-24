@@ -34,7 +34,7 @@ export default function Reservation() {
         <h2
           className="h2-rev"
           style={{
-            fontSize: "3rem",
+            fontSize: "2.5rem", 
             fontWeight: "bold",
             marginBottom: "1.5rem",
             color: "white",

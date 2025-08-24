@@ -1,10 +1,10 @@
 "use client";
 import { useState } from 'react';
-import HeroSection from "./components/HeroSection";
+import HeroSection from "./components/HeroSection2";
 import Navsection from './components/nav';
 import ImageGallery from './components/ImageGallery';
 import EventSection from './components/EventSection';
-import MusicSection from './components/MusicEvent';
+import MusicSection from './components/MusicEvent2';
 import BackgroundVideo from './components/BackgroundVideo';
 import PaintingEffect from './components/PaintingEffect';
 import Contact from './components/contact';
@@ -12,6 +12,7 @@ import Reservation from './components/Researvation';
 import Footer from './components/footer';
 import MenuSection from './components/MenuSection';
 import MobText from './components/MobText';
+
 
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

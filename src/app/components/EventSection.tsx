@@ -10,7 +10,7 @@ export default function EventSection() {
           <h2 
           className="hero-h1"
           style={{
-            fontSize: '3rem',
+            fontSize: '2.5rem',
             fontWeight: 'bold',
             textAlign: 'center',
             marginBottom: '3rem',
