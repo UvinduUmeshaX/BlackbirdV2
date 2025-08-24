@@ -7,7 +7,7 @@ export default function Navsection() {
 
      return (
     <div style={{backgroundColor: 'black', color: 'white'}}>
-     <nav className="bb-nav" style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '2.5rem 2.25rem 1.5rem 2.25rem', fontFamily: 'Lora, serif'}}>
+     <nav className="bb-nav" style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '2.5rem 2.25rem 1.5rem 2.25rem', fontFamily: 'Lora-Regular'}}>
         {/* Logo - Left */}
 
           <img
@@ -49,7 +49,7 @@ export default function Navsection() {
         .hamburger { display: none; background: transparent; color: white; border: 1px solid white; padding: 0.25rem 0.5rem; font-size: 1.5rem; }
         .mobile-menu { position: fixed; top: 0; left: 0; right: 0; background: black; padding: 1rem 1rem 2rem; display: flex; flex-direction: column; gap: 1rem; align-items: center; z-index: 1000; border-bottom: 1px solid #333; }
         .mobile-menu a { color: white; font-size: 1.25rem; }
-        .mobile-cta { padding: 0.5rem 1.5rem; border: 2px solid white; background: transparent; color: white; font-family: Lora, serif; }
+        .mobile-cta { padding: 0.5rem 1.5rem; border: 2px solid white; background: transparent; color: white; font-family: Lora-Regular; }
         .close-btn { align-self: flex-end; background: transparent; color: white; border: 1px solid white; padding: 0.25rem 0.5rem; font-size: 1.25rem; }
       @media (max-width: 1400px) {
           .desktop-nav-links { display: none !important; }
@@ -61,7 +61,7 @@ export default function Navsection() {
          { .bb-nav { margin-left: 60px; margin-right: 60px; } }
 
          @media (max-width: 768px) {
-          .bb-nav { margin-left: 0; margin-right: 0; padding: 1.5rem 1rem; flex-direction: row; gap: 0; justify-content: space-between; align-items: center; }
+          .bb-nav { margin-left: 0; margin-right: 0; padding: 0rem 0rem; flex-direction: row; gap: 0; justify-content: space-between; align-items: center; }
           .desktop-nav-links { display: none !important; }
           .hamburger { display: block; align-self: auto; }
           .logo-img { height: 6.5rem !important; }

@@ -106,19 +106,19 @@ export default function MusicSection() {
   return (
     <section
       ref={sectionRef}
-      className="relative bg-black h-screen px-6 flex flex-col items-center overflow-hidden mt-0"
+      className="relative bg-black h-screen px-6 flex flex-col items-center overflow-hidden -mt-12"
     >
       {/* Foreground Text at the top */}
       <div className="relative z-20 w-full text-center mt-0 md:mt-12 lg:mt-12">
         <h2
           ref={headingRef}
-          className="text-white text-[2rem] md:text-6xl font-serif mb-3 font-['BL-Melody'] mt-4 md:mt-16 lg:mt-16"
+          className="text-white text-4xl md:text-6xl font-serif mb-3 font-['BL-Melody'] mt-4 md:mt-16 lg:mt-16"
         >
-          “Where the music never stops and<br/>the glasses never empty.”
+          Where the music never stops and<br/>the glasses never empty.
         </h2>
         <p
           ref={paragraphRef}
-          className="text-white text-xl md:text-2xl font-serif font-lora"
+          className="text-white md:mt-5 text-2xl md:text-2xl font-serif font-lora"
         >
           Eat. Drink. Groove. Repeat.
         </p>

@@ -20,7 +20,7 @@ export default function HeroSection() {
       ref={heroRef}
       className="hero text-center min-h-screen  bg-black  text-white flex flex-col items-center justify-center -mt-4 md:mt-20 lg:mt-20"
     >
-      <h1 className="hero-h1 mt-0 md:mt-32 lg:mt-55 text-5xl md:text-8xl  lg:text-[12rem] font-bold opacity-0 translate-y-20 font-['BL-Melody'] mb-0  transition-all duration-700 ">
+      <h1 className="hero-h1 -mt-12 md:mt-32 lg:mt-55 text-5xl md:text-8xl  lg:text-[12rem] font-bold opacity-0 translate-y-20 font-['BL-Melody'] mb-0  transition-all duration-700 ">
         BLACKBIRD
       </h1>
       <p className="hero-p text-[1.2rem] md:text-3xl lg:text-[3rem]  font-['Lora-Regular'] tracking-widest leading-snug">
@@ -33,7 +33,7 @@ export default function HeroSection() {
       />
     <style jsx>{`
     @media (max-width: 768px) {
-      
+       
     `}</style>
 
     </section>
